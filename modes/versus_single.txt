@@ -1,0 +1,95 @@
+"versus_single"
+{
+	"DisplayTitle"	"Versus Single"
+	"ShortDescription"	"a single player versus game"
+	"Description"	"this versus mutation is a single player versus game."
+	"Image"		"maps/any"
+	"Author"	"def075"
+	
+	"base" "versus"
+	"maxplayers" "1"
+	"playercontrolledzombies"	"1"
+	"hasdifficulty"				"0"
+	
+	convar {
+		// set on vscript
+		"sv_pausable" 1
+		"mp_autoteambalance" 0
+		"sb_all_bot_game" 1
+		"allow_all_bot_survivor_team" 1
+		"survivor_limit" 4
+		"z_max_player_zombies" 4
+		"vs_max_team_switches" 99
+		"vs_survival_bonus" 25
+		"vs_tiebreak_bonus" 25
+		"nb_update_frequency" 0.033
+		"director_vs_convert_pills" 0
+		"director_convert_pills" 0
+		"director_convert_pills_critical_health" 0
+		"director_convert_pills_to_defib_health" 0
+		"versus_force_start_time" 40
+		
+		"sb_allow_leading" 1
+		"sb_allow_shoot_through_survivors" 1
+		"sb_sidestep_for_horde" 1
+		"sb_friendlyfire" 0
+		"sb_close_checkpoint_door_interval" 0.5
+		"sb_friend_immobilized_reaction_time_vs" 0.25
+		"sb_combat_saccade_speed" 2000
+		"sb_normal_saccade_speed" 2000
+		"sb_temp_health_consider_factor" 0.6
+		"sb_max_team_melee_weapons" 3
+		"sb_threat_far_range" 800
+		"sb_threat_medium_range" 600
+		"sb_separation_rang" 300
+		
+		"versus_special_respawn_interval" 33
+		"z_mob_spawn_min_size" 25
+		"z_mob_spawn_max_size" 25
+		"z_fallen_max_count" 0
+		"sv_infected_ceda_vomitjar_probability" 0
+		"z_mob_spawn_min_interval_normal" 100
+		"z_mob_spawn_max_interval_normal" 100
+		"z_ghost_delay_min" 1
+		"z_ghost_delay_max" 1
+		"gascan_spit_time" 2
+		"versus_tank_chance_intro" 1
+		"versus_tank_chance_finale" 1
+		"versus_tank_chance" 1
+		"versus_tank_flow_team_variation"  0
+		"versus_witch_chance" 0
+		"versus_witch_chance_finale" 0
+		"versus_witch_chance_intro" 0
+		"versus_boss_flow_max" 0.9
+		"versus_boss_flow_max_intro" 0.9
+		"versus_boss_flow_min" 0.15
+		"versus_boss_flow_min_intro" 0.15
+		"tank_stuck_time_suicide" 120
+		"director_tank_lottery_selection_time" 3
+		"versus_boss_padding_min" 0.0
+		"versus_boss_padding_max" 0.0
+		"z_witch_damage_per_kill_hit" 75
+		"z_witch_personal_space" 240
+		"z_leap_interval_post_incap" 15
+		"z_jockey_control_variance" 0.15
+		"z_tank_attack_interval" 2.0
+		
+		"z_scrimmage_creep_delay" 0
+		"z_scrimmage_creep_rate" 100
+		"z_spawn_safety_range" 200
+		"z_safe_spawn_range" 200
+		"tongue_miss_delay" 3
+		"tongue_hit_delay" 15
+		"tongue_dropping_to_ground_time" 0.5
+		"tongue_los_forgiveness_time" 1.5
+		"tongue_no_progress_choke_early_delay" 1.0
+		"z_pounce_stumble_radius" 160
+		"z_pounce_damage_interrupt" 150
+		"z_hunter_limit" 1
+		"z_smoker_limit" 1
+		"z_max_stagger_duration" 0.9
+		"z_ghost_los_expected_progress" 2000
+		"tongue_choke_damage_amount" 5
+		"tongue_break_from_damage_amount" 300
+	}
+}

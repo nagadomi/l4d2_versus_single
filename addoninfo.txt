@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	addonSteamAppID         550
+	addontitle              "Versus Single"
+	addonversion            1.2
+	addonauthor             "def075"
+	addonURL0               "http://steamcommunity.com/sharedfiles/filedetails/?id=186808048"
+	addonDescription        "a single player versus game."
+	addonContent_Mutation 	1
+}
